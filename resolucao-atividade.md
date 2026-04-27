@@ -422,19 +422,7 @@ Além disso, foram aplicados recursos adicionais de CSS para demonstrar domínio
 - media queries para responsividade;
 - `prefers-reduced-motion` para respeitar usuários que reduzem animações.
 
-## Publicação no GitHub Pages
+## GitHub Pages
 
-Para publicar o portfólio:
-
-1. Criar um repositório no GitHub.
-2. Enviar os arquivos `index.html` e a pasta `assets`.
-3. No repositório, acessar **Settings > Pages**.
-4. Em **Build and deployment**, escolher a branch principal.
-5. Aguardar o GitHub gerar a URL.
-6. Substituir neste documento o campo "Link do portfólio publicado" pela URL final.
-
-Formato esperado do link:
-
-```text
 [miguel-calhabeu.github.io/portfolio-website](https://miguel-calhabeu.github.io/portfolio-website/)
-```
+
