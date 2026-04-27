@@ -1,8 +1,8 @@
 # Introdução ao CSS no Desenvolvimento Front-end
 
-**Aluno:** Miguel Filippo Rocha Calhabeu  
-**Atividade:** Introdução ao CSS no Desenvolvimento Front-end  
-**Template escolhido:** MyResume, da BootstrapMade  
+**Aluno:** Miguel Filippo Rocha Calhabeu
+**Atividade:** Introdução ao CSS no Desenvolvimento Front-end
+**Template escolhido:** MyResume, da BootstrapMade
 **Link do portfólio publicado:** pendente de publicação no GitHub Pages
 
 ## 1. Diferença entre HTML e CSS
@@ -88,7 +88,7 @@ O CSS inline é aplicado diretamente no elemento HTML, usando o atributo `style`
 </p>
 ```
 
-**Vantagens:** é simples para testes rápidos e afeta apenas o elemento em que foi aplicado.  
+**Vantagens:** é simples para testes rápidos e afeta apenas o elemento em que foi aplicado.
 **Desvantagens:** dificulta manutenção, reaproveitamento e padronização visual. Em projetos maiores, torna o código repetitivo e menos organizado.
 
 ### CSS interno
@@ -111,7 +111,7 @@ O CSS interno é escrito dentro da própria página HTML, geralmente dentro da t
 </html>
 ```
 
-**Vantagens:** mantém os estilos concentrados na página e é útil quando há apenas uma página pequena.  
+**Vantagens:** mantém os estilos concentrados na página e é útil quando há apenas uma página pequena.
 **Desvantagens:** não reaproveita os estilos entre várias páginas e aumenta o tamanho do arquivo HTML.
 
 ### CSS externo
@@ -129,12 +129,12 @@ body {
 }
 ```
 
-**Vantagens:** melhora organização, reaproveitamento, manutenção e separação de responsabilidades entre estrutura e aparência.  
+**Vantagens:** melhora organização, reaproveitamento, manutenção e separação de responsabilidades entre estrutura e aparência.
 **Desvantagens:** depende do carregamento de mais um arquivo; se o caminho estiver errado, a página perde a estilização.
 
 ## 4. Entendendo template web e seus estilos
 
-O template escolhido foi o **MyResume**, da BootstrapMade:  
+O template escolhido foi o **MyResume**, da BootstrapMade:
 https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
 
 Segundo a página da BootstrapMade, o MyResume é um template de currículo e portfólio construído com Bootstrap, HTML5, CSS3 e jQuery, com layout responsivo e seções de portfólio.
@@ -307,28 +307,28 @@ Tecnologias incluídas:
 
 ### Projetos
 
-**Projeto 1: Autenticação segura para integrações de marketplace**  
-Descrição: serviço para resolver tokens OAuth válidos para consumidores de ingestão, removendo lógica de refresh de webhooks individuais e centralizando ciclo de vida, IAM, Firestore e Secret Manager.  
+**Projeto 1: Autenticação segura para integrações de marketplace**
+Descrição: serviço para resolver tokens OAuth válidos para consumidores de ingestão, removendo lógica de refresh de webhooks individuais e centralizando ciclo de vida, IAM, Firestore e Secret Manager.
 Tecnologias: Python, Google Cloud Functions, Firestore, Secret Manager, IAM e pytest.
 
-**Projeto 2: Pipeline de dados para funil de vendas digital**  
-Descrição: pipeline acionado por eventos no GCS para ingerir planilhas Excel, aplicar tratamento em Python, carregar staging no BigQuery e consolidar métricas diárias e mensais por MERGE incremental.  
+**Projeto 2: Pipeline de dados para funil de vendas digital**
+Descrição: pipeline acionado por eventos no GCS para ingerir planilhas Excel, aplicar tratamento em Python, carregar staging no BigQuery e consolidar métricas diárias e mensais por MERGE incremental.
 Tecnologias: Python, pandas, Cloud Functions, GCS, BigQuery e SQL.
 
-**Projeto 3: Dashboard financeiro de contas a pagar**  
-Descrição: dashboard operacional para consolidar dados financeiros de múltiplos tenants do Tiny ERP, com API Routes atuando como proxy, normalização de dados e visualizações para acompanhamento de fluxo de caixa.  
+**Projeto 3: Dashboard financeiro de contas a pagar**
+Descrição: dashboard operacional para consolidar dados financeiros de múltiplos tenants do Tiny ERP, com API Routes atuando como proxy, normalização de dados e visualizações para acompanhamento de fluxo de caixa.
 Tecnologias: Next.js, TypeScript, Tailwind CSS, Google Cloud IAP, Recharts e Tiny ERP API.
 
-**Projeto 4: Conferência automatizada de estoque**  
-Descrição: aplicação local em Streamlit para comparar estoque de Magalu e Mercado Livre contra Tiny ERP, com mapeamento DE-PARA de SKUs, consulta à API e geração de snapshots auditáveis.  
+**Projeto 4: Conferência automatizada de estoque**
+Descrição: aplicação local em Streamlit para comparar estoque de Magalu e Mercado Livre contra Tiny ERP, com mapeamento DE-PARA de SKUs, consulta à API e geração de snapshots auditáveis.
 Tecnologias: Python, Streamlit, pandas, Excel, Tiny API e JSON.
 
-**Projeto 5: Análise estatística de conversão em site**  
-Descrição: análise estatística para inferir gatilhos de pop-up por inatividade ou scroll usando eventos GA4 exportados para BigQuery, timestamps, segmentação e bootstrap para intervalos de confiança.  
+**Projeto 5: Análise estatística de conversão em site**
+Descrição: análise estatística para inferir gatilhos de pop-up por inatividade ou scroll usando eventos GA4 exportados para BigQuery, timestamps, segmentação e bootstrap para intervalos de confiança.
 Tecnologias: BigQuery, GA4, Python, pandas, estatística e visualização de dados.
 
-**Projeto 6: Padronização inteligente de tags de marketing**  
-Descrição: CLI para propor renomeações padronizadas em exports do Google Tag Manager com apoio de modelo de IA, validação estrutural em Python e reescrita segura de referências de variáveis.  
+**Projeto 6: Padronização inteligente de tags de marketing**
+Descrição: CLI para propor renomeações padronizadas em exports do Google Tag Manager com apoio de modelo de IA, validação estrutural em Python e reescrita segura de referências de variáveis.
 Tecnologias: Python, Gemini/OpenRouter, JSON Schema, GTM e automação com IA.
 
 ### Contato
@@ -436,5 +436,5 @@ Para publicar o portfólio:
 Formato esperado do link:
 
 ```text
-https://seu-usuario.github.io/nome-do-repositorio/
+[miguel-calhabeu.github.io/portfolio-website](https://miguel-calhabeu.github.io/portfolio-website/)
 ```
